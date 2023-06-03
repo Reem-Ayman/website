@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body:hover{
+    overflow: scroll;
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+
+
+/* nav start */
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+    flex-direction: row-reverse;
+    
+}
+
+
+
+.cover{
+    width: 100%;
+    position: relative;
+    max-width: 100%;
+    height: 70%;
+   background-size: cover;
+}
+.imgk{
+    padding: 20px; 
+    margin-left: 70px;
+    width: 150px;
+    height: 150px;
+    margin-left:15px ;
+    position: absolute;
+    right: 100%;
+    top:-50%;
+}
+.options {
+display: flex;
+margin-top: 30px;
+margin-left: 50px;
+position: absolute;
+right: 60%;
+}
+
+
+.options p{
+    justify-content: space-between;
+    padding: 20px; 
+    font-size: 15px;
+    
+}
+.options a:hover{
+    background-color: aqua;
+   
+}
+
+.options .home{
+    border-bottom: 2px solid rgb(81, 43, 81);
+padding-bottom: 10px;
+}
+.options a{
+    text-decoration: none;
+    color: black;
+}
+.left-menu{
+    display: flex;
+    justify-content: space-around;
+}
+.right-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 11px;
+margin-right: 60px;
+position: absolute;
+top: 6%;
+}
+.right-menu .input{
+    box-shadow: 0 0 5px 1px #ddd;
+    position: relative;
+    border-radius: 30px;
+}
+.right-menu button{
+    border-radius: 20%;
+    border: none;
+}
+.right-menu a{
+    position: absolute;
+    color: black;
+    text-decoration: none;
+}
+
+/* end-nav */
+/* start sec */
+/* div text */
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    background-attachment: fixed;
+
+}
+
+.top .text h1{
+    color: #2d2929ba;
+    font-size: 30px;
+}
+.text h1{
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+.text .deliver {
+    color: rgb(120, 18, 120);
+}
+.top .text{
+    position: absolute;
+   bottom: 400px;
+  left: 20px;
+  color: black;
+  padding-left: 15%;
+  padding-right: 20px;
+  
+}
+
+ .text p{
+   color: #070606a4;
+   padding-top: 3%;
+
+}
+/* div 3pics */
+.pics3{
+    position: absolute;
+    background-attachment: fixed;
+}
+.tri{
+    position: relative;
+    left: 70%;
+    margin-top:8%;
+    width:50%
+}
+.guy{
+    position: absolute;
+    left: 80%;
+    margin-top:11%;
+    width:20%
+}
+
+.cloud{
+    position: absolute;
+    left: 75%;
+    margin-top:37%;
+    width: 30%;
+    z-index:1;
+}
+.img-wave .waves{
+    position: absolute;
+    width: 65%;
+    left: 2%;
+    top:63%;
+}
+
+.fastfood{
+    position: absolute;
+    top: 90%;
+    left: 25%;
+}
+.fastfood .super{
+    width: 80%;
+}
+.fastfood h4{
+    color: rgba(33, 30, 30, 0.77);
+padding-left: 15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.fastfood p{
+    color: rgba(58, 55, 55, 0.953);
+    font-family: Lucida Sans;
+    font-weight: bold;
+    font-size: 10px;
+
+}
+
+.van{
+    position:absolute ;
+    width: 60%;
+   top: 80%;
+ left: 33%;
+}
+
+.real{
+    position: absolute;
+    top: 108%;
+    left: 55%;
+}
+.time{
+   width: 79%; 
+
+}
+.real h4{
+    color: rgba(33, 30, 30, 0.77);
+    padding-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+
+.real p{
+    color: rgba(58, 55, 55, 0.953);
+    font-family: Lucida Sans;
+    font-weight: bold;
+    font-size: 10px;
+padding-right: 10px; 
+}
+.dis-kudz{
+    display: flex;
+    justify-content:space-between ;
+position: absolute;
+    top: 142%;
+    left: 73%;
+}
+.discounts{
+    width: 90%;
+}
+.dis h4{
+    color: rgba(33, 30, 30, 0.77);
+    padding-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dis p{
+    color: rgba(58, 55, 55, 0.953);
+    font-family: Lucida Sans;
+    font-weight: bold;
+    font-size: 10px;
+padding-left: 30px; 
+}
+.kudzoka{
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: 400%;
+  padding-bottom: 30%;
+}
+.choose-kudzo{
+top: 10%;
+position: absolute;
+left: 30%;
+}
+.why{
+    width: 140%;
+}
+.choose{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+  padding-left: 30%;
+}
+.choose h4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.choose p{
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    
+}
+/* end top-sec */
+/* start middle sec */
+.contain3img{
+position: absolute;
+
+}
+.dollar{
+    padding-top:250%;
+    padding-left: 360%;
+}
+.static{
+    width: auto;
+}
+
+.fallen{
+    position: absolute;
+  top:60%;
+  left: 180%;
+
+}
+.rock{
+    width: 400px;
+}
+.rock-text{
+    padding-left: 130px; 
+}
+.rock-text h4{
+    color: rgba(39, 38, 38, 0.821);
+}
+.rock-text .we{
+    color: rgba(58, 55, 55, 0.953);
+    font-family: Lucida Sans;
+    font-weight: bold;
+    font-size:11px;
+padding-left: 1px;
+}
+.rock-text .to{
+    color: rgba(58, 55, 55, 0.953);
+    font-family: Lucida Sans;
+    font-weight: bold;
+    font-size:11px;
+padding-left: 1px;
+}
+.rock-text .customer{
+    color: rgba(58, 55, 55, 0.953);
+    font-family: Lucida Sans;
+    font-weight: bold;
+    font-size:11px;
+padding-left: 25px;
+}
+.hop .hopp{
+    position: absolute;
+    top:67% ;
+    left: 50%;
+}
+/* end middlesec */
+
+/* start bottom-sec */
+footer{
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.back-foot{
+    position:absolute;
+  width:100%;
+    height: 100%;
+    background-size: contain;
+   top:250%;
+    left: 5%;
+    background-image: url(Group\ 1131.png);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+   
+ 
+} 
+.box .bbox{
+    position: absolute;
+    top: 250%;
+    width: 40%;
+    left: 47%;
+    top: 265%;
+}
+.app p{
+    width: 160px;
+    height: 70px;
+    border: 1px solid white;
+    border-radius: 17%;
+    padding-left: 50px;
+    padding-top: 30px;
+    margin-top: 90%;
+    margin-left: 15%;
+position: absolute;
+background-color: white;
+}
+.apple{
+    position: absolute;
+    top:295%;
+    margin-left: 230px;
+  padding-top: 13px;
+}
+.play-app{
+    display: flex;
+    justify-content: space-around;
+}
+.play p{
+    width: 160px;
+    height: 70px;
+    border: 1px solid white;
+    border-radius: 17%;
+    padding-left: 50px;
+    padding-top: 30px;
+    margin-top: 90%;
+    margin-left: 25%;
+position: absolute;
+background-color: white;
+
+}
+.play .store{
+    position: absolute;
+    top:295%;
+    margin-left: 380px;
+  padding-top: 13px;
+}
+
+.icons{
+    position: absolute;
+    left: 10%;
+    top: 310%;
+    left: 18%;
+    color: white;
+    font-size: 30px;  
+}
+
+.last{
+    position: absolute;
+    left: 10%;
+    top: 318%;
+    left: 18%;
+    display: flex;
+}
+.last p{
+padding-left: 40px;
+
+}
+.last a{
+    text-decoration: none;
+    color:white;
+}
